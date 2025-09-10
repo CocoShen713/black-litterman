@@ -17,7 +17,7 @@ rates_df.set_index('Date', inplace=True)
 
 posterior_days = 900
 
-file_path = "data/BL Model Data 7-24-24 (1).xlsx"
+file_path = "data/BL Model Data 7-24-24.xlsx"
 data = pd.read_excel(file_path, header=1)
 data['date'] = pd.to_datetime(data['date'])
 
